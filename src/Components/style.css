@@ -119,5 +119,120 @@ background-color: #454a55;
   .searchTerm:focus{
     color: #000000;
   }
+  .myModal {
+    text-align: center;
+    padding-top: 2rem;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    opacity: .5;
+  }
+  
+  .modal-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+  }
+  
+  .modal {
+    z-index: 100;
+    background: #454a55;
+    position: relative;
+    margin: 1.75rem auto;
+    border-radius: 3px;
+    max-width: 800px;
+    padding: 2rem;
+  }
+  .modal img{
+    margin: 0.5rem;
+    width: 200px;
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .modal-close-button {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    opacity: .3;
+    cursor: pointer;
+    border: none;
+  }
+  
+  button {
+    font-size: .9rem;
+    font-weight: 700;
+    border-radius: 3px;
+    padding: .3rem 1rem;
+    margin-left: .5rem;
+    margin-top: 1rem;
+  }
+  
+  .button-default {
+    background: #000;
+    color: #fff;
+  }
+  .modalcardinfo{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+.modalcardinfo .group{
+    
+    color: black;
+    padding: 0.5rem;
+    font-size: 12px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+
+}
+.modalcardinfo .group .group{
+  display: flex;
+  flex-direction: column;
+}
+.modalcardinfo .group .group .stat{
+  display: flex;
+  flex-direction: column;
+}
+.modalbase-stat{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+
+}
+.modalcardinfo .group .group .stat2{
+  display: flex;
+  flex-direction: row;
+}
+.modalcardinfo .group .group .desc{
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
   
  

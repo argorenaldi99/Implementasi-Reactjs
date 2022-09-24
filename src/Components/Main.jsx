@@ -4,6 +4,8 @@ import Deckinfo from "./Deckinfo";
 import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
+import Modal from "./Modal";
+import useModal from "./useModal";
 
 
 
@@ -14,7 +16,9 @@ const Main=()=>{
     const [nextUrl,setNextUrl]=useState();
     const [prevUrl,setPrevUrl]=useState();
     const [infoDeck,setInfoDeck]=useState("");
-    const [search, setSearch] = useState("")
+    const {isShowing, toggle} = useModal();
+    
+   
 
     const deckFun=async()=>{
         setLoading(true)
@@ -27,12 +31,16 @@ const Main=()=>{
         setDeckData([])
         getDeck(res.data)
         setLoading(false)
-       
-        
-        
-       
+      
        
     }
+   
+       
+      
+    
+       
+     
+    
     const getDeck=async(res)=>{
         res.data.map(async(item)=>{
           //console.log(item)
@@ -81,11 +89,21 @@ const Main=()=>{
             </div>
             <div className="right-content">
                 <Deckinfo data={infoDeck}/>
+                <div className="App">
+                        { infoDeck&&<button className="button-default" onClick={toggle}>Show Detail</button>}
+                         <Modal
+                            isShowing={isShowing}
+                            hide={toggle}
+                            data={infoDeck}
+                        />
+                    </div>
 
             </div>
         </div>
         </>
+        
     )
+    
 }
 
 export default Main;
