@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Implementasi-Reactjs/yugioh-app/static/css/main.3dfa9bc6.css",
-    "main.js": "/Implementasi-Reactjs/yugioh-app/static/js/main.24f78e2a.js",
-    "static/js/787.e7771dfa.chunk.js": "/Implementasi-Reactjs/yugioh-app/static/js/787.e7771dfa.chunk.js",
-    "index.html": "/Implementasi-Reactjs/yugioh-app/index.html",
-    "main.3dfa9bc6.css.map": "/Implementasi-Reactjs/yugioh-app/static/css/main.3dfa9bc6.css.map",
-    "main.24f78e2a.js.map": "/Implementasi-Reactjs/yugioh-app/static/js/main.24f78e2a.js.map",
-    "787.e7771dfa.chunk.js.map": "/Implementasi-Reactjs/yugioh-app/static/js/787.e7771dfa.chunk.js.map"
+    "main.css": "/yugioh-app/static/css/main.755e812e.css",
+    "main.js": "/yugioh-app/static/js/main.95fe26b2.js",
+    "static/js/787.e7771dfa.chunk.js": "/yugioh-app/static/js/787.e7771dfa.chunk.js",
+    "index.html": "/yugioh-app/index.html",
+    "main.755e812e.css.map": "/yugioh-app/static/css/main.755e812e.css.map",
+    "main.95fe26b2.js.map": "/yugioh-app/static/js/main.95fe26b2.js.map",
+    "787.e7771dfa.chunk.js.map": "/yugioh-app/static/js/787.e7771dfa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3dfa9bc6.css",
-    "static/js/main.24f78e2a.js"
+    "static/css/main.755e812e.css",
+    "static/js/main.95fe26b2.js"
   ]
 }
