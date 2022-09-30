@@ -21,9 +21,6 @@ background-color: #454a55;
     padding-top: 100px;
     display: flex;
 }
-.left-content,.right-content{
-    flex-basis: 50%;
-}
 .left-content{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(350px,0.5fr));
